@@ -27,6 +27,14 @@ class Nodes extends Component {
   render() {
     return (
       <div>
+        <div className='colNames'>
+          <span className='nodeSpan'>
+              Название
+            </span>
+          <span className='nodeSpan'>
+              Автор
+            </span>
+        </div>
         {this.printNodes()}
       </div>
     );
