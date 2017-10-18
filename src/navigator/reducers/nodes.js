@@ -1,7 +1,7 @@
 export default function () {
   return {
     0: {
-      name: 'first',
+      name: 'home',
       author: 'gori',
       children: [1, 2, 4],
       parent: undefined
