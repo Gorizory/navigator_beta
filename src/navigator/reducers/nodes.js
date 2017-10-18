@@ -1,30 +1,30 @@
 export default function () {
   return {
-    '0': {
+    0: {
       name: 'first',
       author: 'gori',
-      children: ['1', '2', '4'],
+      children: [1, 2, 4],
       parent: undefined
     },
-    '1': {
+    1: {
       name: 'second',
       author: 'promyshlenniy',
       children: [3],
       parent: '0'
     },
-    '2': {
+    2: {
       name: 'third',
       author: 'pylesos',
       children: [],
       parent: '0'
     },
-    '3': {
+    3: {
       name: 'child',
       author: 'smolya',
       children: [],
       parent: '1'
     },
-    '4': {
+    4: {
       name: 'child',
       author: 'smolya',
       children: [],
